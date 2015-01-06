@@ -1,0 +1,22 @@
+.PictureGridCats {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.pixelImage {
+    height: auto;
+    width: 10%;
+    display: block;
+    margin-left: 37.5%;
+      -webkit-transition:1.00s linear all;
+  transition:0.25s linear all;
+    
+}
+
+.fullImage {
+    height: 100%;
+    width: 100%;
+    /*display: block;*/
+      -webkit-transition:1.00s linear all;
+  transition:0.25s linear all;
+}

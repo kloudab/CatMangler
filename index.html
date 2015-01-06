@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="catManglerApp">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+    <script type="text/javascript" src="https://code.angularjs.org/1.2.28/angular-animate.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+    
+<body>
+  <div ng-controller="CatGridCtrl">
+    <div ng-repeat="pic in catPics">
+      <img enter leave class="pixelImage" src="{{pic}}">
+    </div>
+  </div> 
+</body>
+
+</html>
